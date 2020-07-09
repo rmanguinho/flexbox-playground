@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBox Playground</title>
+  <link href="styles.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1>FlexBox Playground</h1>
+    <form>
+      <fieldset>
+        <label for="flex-direction">Flex Direction</label>
+        <select id="flex-direction">
+          <option>row</option>
+          <option>column</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="align-items">Align Items</label>
+        <select id="align-items">
+          <option>flex-start</option>
+          <option>flex-end</option>
+          <option>center</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="flex-wrap">Flex Wrap</label>
+        <select id="flex-wrap">
+          <option>nowrap</option>
+          <option>wrap</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="align-content">Align Content</label>
+        <select id="align-content">
+          <option>flex-start</option>
+          <option>flex-end</option>
+          <option>center</option>
+          <option>space-around</option>
+          <option>space-between</option>
+          <option>space-evenly</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label for="justify-content">Justify Content</label>
+        <select id="justify-content">
+          <option>flex-start</option>
+          <option>flex-end</option>
+          <option>center</option>
+          <option>space-around</option>
+          <option>space-between</option>
+          <option>space-evenly</option>
+        </select>
+      </fieldset>
+    </form>
+    <div class="buttons">
+      <button class="add">Add</button>
+      <button class="remove">Remove</button>
+    </div>
+    <div class="demo">
+      <div class="square">1</div>
+      <div class="square">2</div>
+      <div class="square">3</div>
+      <div class="square">4</div>
+      <div class="square">5</div>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
